@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald:wght@300&display=swap");
+
+.App {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+.App h1 {
+  background-color: rgba(255, 196, 5, 0.7);
+  border-radius: 1rem;
+  padding: 0.5rem 0rem;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  /* max-width: 40rem; */
+  margin: auto;
+  font-size: 3rem;
+}
+
+.App .main-content {
+  margin-top: 15rem;
+}
+
+.App h2 {
+  color: rgb(255, 235, 169) /*rgb(255, 196, 5)*/;
+}
+
+.App input {
+  /* margin-top: 18rem; */
+  width: 250px;
+  height: 10px;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  outline: none;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media screen and (max-height: 600px) {
+  .App .main-content {
+    margin-top: 5rem;
+  }
+}
